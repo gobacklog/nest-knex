@@ -18,7 +18,7 @@
   },
   "keywords": [
     "nestjs"
-  ],
+  ],  
   "publishConfig": {
     "access": "public"
   },

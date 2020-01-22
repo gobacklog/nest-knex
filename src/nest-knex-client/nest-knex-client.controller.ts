@@ -1,14 +1,11 @@
 import { Controller, Inject, Get } from '@nestjs/common';
 import { KNEX_CONNECTION } from '../constants';
 
-@Controller()
+@Controller('nestknex')
 export class NestKnexClientController {
-  // new
   constructor(@Inject(KNEX_CONNECTION) private readonly knex) {}
-  // old
-  // constructor(private readonly nestKnexService: NestKnexService) {}
 
-  @Get()
+  @Get('test')
   async index() {
     // following line no longer needed
     // const knex = this.nestKnexService.getKnex();
