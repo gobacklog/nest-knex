@@ -1,7 +1,7 @@
 {
-  "name": "nest-knex",
+  "name": "@gobacklog/nest-knex",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's a module of Nestjs to use Knexjs Query Builder",
   "author": "",
   "license": "MIT",
   "main": "dist/index.js",
