@@ -1,6 +1,6 @@
 {
   "name": "@gobacklog/nest-knex",
-  "version": "1.1.2",
+  "version": "1.2.2",
   "description": "It's a module of Nestjs to use Knexjs Query Builder",
   "author": "GobacklogTeam",
   "license": "MIT",
@@ -23,34 +23,34 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@nestjs/common": "^6.0.0"
+    "@nestjs/common": "^7.0.9"
   },
   "dependencies": {
     "acorn": "^7.1.1",
-    "knex": "^0.20.15",
+    "knex": "^0.21.1",
     "minimist": "^1.2.5",
-    "pg": "^7.18.2"
+    "pg": "^8.0.3"
   },
   "devDependencies": {
-    "@nestjs/common": "^6.11.11",
-    "@nestjs/core": "^6.11.11",
-    "@nestjs/platform-express": "^6.11.11",
-    "@nestjs/testing": "6.1.1",
-    "@types/express": "4.16.1",
-    "@types/jest": "24.0.11",
-    "@types/node": "11.13.4",
-    "@types/supertest": "2.0.7",
-    "jest": "^25.5.2",
-    "prettier": "1.17.0",
+    "@nestjs/common": "^7.0.9",
+    "@nestjs/core": "^7.0.9",
+    "@nestjs/platform-express": "^7.0.9",
+    "@nestjs/testing": "7.0.9",
+    "@types/express": "4.17.6",
+    "@types/jest": "25.2.1",
+    "@types/node": "13.13.4",
+    "@types/supertest": "2.0.9",
+    "jest": "^25.5.4",
+    "prettier": "2.0.5",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.5",
     "supertest": "4.0.2",
-    "ts-jest": "24.0.2",
-    "ts-node": "8.1.0",
-    "tsc-watch": "2.2.1",
-    "tsconfig-paths": "3.8.0",
-    "tslint": "5.16.0",
-    "typescript": "3.4.3"
+    "ts-jest": "25.4.0",
+    "ts-node": "8.10.1",
+    "tsc-watch": "4.2.3",
+    "tsconfig-paths": "3.9.0",
+    "tslint": "6.1.2",
+    "typescript": "3.8.3"
   },
   "jest": {
     "moduleFileExtensions": [
